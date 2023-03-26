@@ -22,7 +22,7 @@ import (
 
 	"github.com/Daimon-Security/soros/event"
 	"github.com/Daimon-Security/soros/rpc"
-	"github.com/ethereum/go-ethereum"
+	"github.com/Daimon-Security/soros"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

@@ -31,7 +31,7 @@ import (
 	"github.com/Daimon-Security/soros/ethdb"
 	"github.com/Daimon-Security/soros/event"
 	"github.com/Daimon-Security/soros/rpc"
-	"github.com/ethereum/go-ethereum"
+	"github.com/Daimon-Security/soros"
 )
 
 // filter is a helper struct that holds meta information over the filter type

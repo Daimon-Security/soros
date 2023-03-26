@@ -34,7 +34,7 @@ import (
 	"github.com/Daimon-Security/soros/core/types"
 	"github.com/Daimon-Security/soros/crypto"
 	"github.com/Daimon-Security/soros/params"
-	"github.com/ethereum/go-ethereum"
+	"github.com/Daimon-Security/soros"
 )
 
 func TestSimulatedBackend(t *testing.T) {

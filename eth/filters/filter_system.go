@@ -31,7 +31,7 @@ import (
 	"github.com/Daimon-Security/soros/event"
 	"github.com/Daimon-Security/soros/log"
 	"github.com/Daimon-Security/soros/rpc"
-	"github.com/ethereum/go-ethereum"
+	"github.com/Daimon-Security/soros"
 )
 
 // Type determines the kind of filter and is used to put the filter in to

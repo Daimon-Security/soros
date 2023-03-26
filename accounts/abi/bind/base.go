@@ -29,7 +29,7 @@ import (
 	"github.com/Daimon-Security/soros/core/types"
 	"github.com/Daimon-Security/soros/crypto"
 	"github.com/Daimon-Security/soros/event"
-	"github.com/ethereum/go-ethereum"
+	"github.com/Daimon-Security/soros"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

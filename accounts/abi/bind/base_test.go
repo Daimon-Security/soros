@@ -30,7 +30,7 @@ import (
 	"github.com/Daimon-Security/soros/core/types"
 	"github.com/Daimon-Security/soros/crypto"
 	"github.com/Daimon-Security/soros/rlp"
-	"github.com/ethereum/go-ethereum"
+	"github.com/Daimon-Security/soros"
 	"github.com/stretchr/testify/assert"
 )
 

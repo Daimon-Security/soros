@@ -34,7 +34,7 @@ import (
 	"github.com/Daimon-Security/soros/node"
 	"github.com/Daimon-Security/soros/params"
 	"github.com/Daimon-Security/soros/rpc"
-	"github.com/ethereum/go-ethereum"
+	"github.com/Daimon-Security/soros"
 )
 
 var (
