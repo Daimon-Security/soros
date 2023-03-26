@@ -40,7 +40,7 @@ import (
 	"github.com/Daimon-Security/soros/rpc"
 )
 
-// Verify that Client implements the ethereum interfaces.
+// Verify that Client implements the soros interfaces.
 var (
 	_ = ethereum.ChainReader(&Client{})
 	_ = ethereum.TransactionReader(&Client{})
@@ -200,7 +200,7 @@ func newTestBackend(t *testing.T) (*node.Node, []*types.Block) {
 	config.Ethash.PowMode = ethash.ModeFake
 	ethservice, err := eth.New(n, config)
 	if err != nil {
-		t.Fatalf("can't create new ethereum service: %v", err)
+		t.Fatalf("can't create new soros service: %v", err)
 	}
 	// Import the test chain.
 	if err := n.Start(); err != nil {

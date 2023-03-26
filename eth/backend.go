@@ -289,7 +289,7 @@ func makeExtraData(extra []byte) []byte {
 	return extra
 }
 
-// APIs return the collection of RPC services the ethereum package offers.
+// APIs return the collection of RPC services the soros package offers.
 // NOTE, some of these services probably need to be moved to somewhere else.
 func (s *Soros) APIs() []rpc.API {
 	apis := ethapi.GetAPIs(s.APIBackend)
