@@ -57,7 +57,7 @@ import (
 	"github.com/Daimon-Security/soros/rpc"
 )
 
-// Config contains the configuration options of the ETH protocol.
+// Config contains the configuration options of the SRS protocol.
 // Deprecated: use ethconfig.Config instead.
 type Config = ethconfig.Config
 

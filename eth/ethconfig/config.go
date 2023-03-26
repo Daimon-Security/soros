@@ -14,7 +14,7 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
 
-// Package ethconfig contains the configuration of the ETH and LES protocols.
+// Package ethconfig contains the configuration of the SRS and LES protocols.
 package ethconfig
 
 import (
@@ -117,7 +117,7 @@ func init() {
 
 //go:generate gencodec -type Config -formats toml -out gen_config.go
 
-// Config contains configuration options for of the ETH and LES protocols.
+// Config contains configuration options for of the SRS and LES protocols.
 type Config struct {
 	// The genesis block, which is inserted if the database is empty.
 	// If nil, the Soros main net block is used.
