@@ -26,7 +26,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
 	"github.com/Daimon-Security/soros/common"
 	"github.com/Daimon-Security/soros/core/rawdb"
 	"github.com/Daimon-Security/soros/core/state/snapshot"
@@ -35,6 +34,7 @@ import (
 	"github.com/Daimon-Security/soros/ethdb"
 	"github.com/Daimon-Security/soros/event"
 	"github.com/Daimon-Security/soros/trie"
+	"github.com/ethereum/go-ethereum"
 )
 
 // Reduce some of the parameters to make the tester faster.

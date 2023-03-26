@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum
+module github.com/Daimon-Security/soros
 
 go 1.15
 

@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
+	ethereum "github.com/Daimon-Security/soros"
 	"github.com/Daimon-Security/soros/accounts"
 	"github.com/Daimon-Security/soros/common"
 	"github.com/Daimon-Security/soros/consensus"

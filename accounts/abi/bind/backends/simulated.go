@@ -24,6 +24,7 @@ import (
 	"sync"
 	"time"
 
+	ethereum "github.com/Daimon-Security/soros"
 	"github.com/Daimon-Security/soros/accounts/abi"
 	"github.com/Daimon-Security/soros/accounts/abi/bind"
 	"github.com/Daimon-Security/soros/common"
@@ -42,7 +43,6 @@ import (
 	"github.com/Daimon-Security/soros/log"
 	"github.com/Daimon-Security/soros/params"
 	"github.com/Daimon-Security/soros/rpc"
-	"github.com/ethereum/go-ethereum"
 )
 
 // This nil assignment ensures at compile time that SimulatedBackend implements bind.ContractBackend.

@@ -21,8 +21,8 @@ package gsor
 import (
 	"errors"
 
+	ethereum "github.com/Daimon-Security/soros"
 	"github.com/Daimon-Security/soros/common"
-	"github.com/ethereum/go-ethereum"
 )
 
 // Subscription represents an event subscription where events are

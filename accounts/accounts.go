@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"math/big"
 
+	ethereum "github.com/Daimon-Security/soros"
 	"github.com/Daimon-Security/soros/common"
 	"github.com/Daimon-Security/soros/core/types"
 	"github.com/Daimon-Security/soros/event"
-	"github.com/ethereum/go-ethereum"
 	"golang.org/x/crypto/sha3"
 )
 

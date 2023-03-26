@@ -23,7 +23,6 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum"
 	"github.com/Daimon-Security/soros/accounts/abi"
 	"github.com/Daimon-Security/soros/accounts/abi/bind"
 	"github.com/Daimon-Security/soros/common"
@@ -31,6 +30,7 @@ import (
 	"github.com/Daimon-Security/soros/core/types"
 	"github.com/Daimon-Security/soros/crypto"
 	"github.com/Daimon-Security/soros/rlp"
+	"github.com/ethereum/go-ethereum"
 	"github.com/stretchr/testify/assert"
 )
 

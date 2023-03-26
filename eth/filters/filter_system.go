@@ -24,7 +24,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
 	"github.com/Daimon-Security/soros/common"
 	"github.com/Daimon-Security/soros/core"
 	"github.com/Daimon-Security/soros/core/rawdb"
@@ -32,6 +31,7 @@ import (
 	"github.com/Daimon-Security/soros/event"
 	"github.com/Daimon-Security/soros/log"
 	"github.com/Daimon-Security/soros/rpc"
+	"github.com/ethereum/go-ethereum"
 )
 
 // Type determines the kind of filter and is used to put the filter in to

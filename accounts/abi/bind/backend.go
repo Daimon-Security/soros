@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
+	ethereum "github.com/Daimon-Security/soros"
 	"github.com/Daimon-Security/soros/common"
 	"github.com/Daimon-Security/soros/core/types"
-	"github.com/ethereum/go-ethereum"
 )
 
 var (

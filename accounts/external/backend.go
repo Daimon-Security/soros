@@ -21,6 +21,7 @@ import (
 	"math/big"
 	"sync"
 
+	ethereum "github.com/Daimon-Security/soros"
 	"github.com/Daimon-Security/soros/accounts"
 	"github.com/Daimon-Security/soros/common"
 	"github.com/Daimon-Security/soros/common/hexutil"
@@ -29,7 +30,6 @@ import (
 	"github.com/Daimon-Security/soros/log"
 	"github.com/Daimon-Security/soros/rpc"
 	"github.com/Daimon-Security/soros/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum"
 )
 
 type ExternalBackend struct {

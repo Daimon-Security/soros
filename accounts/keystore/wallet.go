@@ -19,7 +19,7 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum"
+	ethereum "github.com/Daimon-Security/soros"
 	"github.com/Daimon-Security/soros/accounts"
 	"github.com/Daimon-Security/soros/core/types"
 	"github.com/Daimon-Security/soros/crypto"

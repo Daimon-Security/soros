@@ -33,12 +33,12 @@ import (
 	"sync"
 	"time"
 
+	ethereum "github.com/Daimon-Security/soros"
 	"github.com/Daimon-Security/soros/accounts"
 	"github.com/Daimon-Security/soros/common"
 	"github.com/Daimon-Security/soros/core/types"
 	"github.com/Daimon-Security/soros/crypto"
 	"github.com/Daimon-Security/soros/log"
-	"github.com/ethereum/go-ethereum"
 	pcsc "github.com/gballet/go-libpcsclite"
 	"github.com/status-im/keycard-go/derivationpath"
 )

@@ -23,12 +23,12 @@ import (
 	"runtime"
 	"runtime/debug"
 
+	ethereum "github.com/Daimon-Security/soros"
 	"github.com/Daimon-Security/soros/common"
 	"github.com/Daimon-Security/soros/common/hexutil"
 	"github.com/Daimon-Security/soros/core/types"
 	"github.com/Daimon-Security/soros/p2p"
 	"github.com/Daimon-Security/soros/rpc"
-	"github.com/ethereum/go-ethereum"
 )
 
 // Client is a wrapper around rpc.Client that implements gsor-specific functionality.

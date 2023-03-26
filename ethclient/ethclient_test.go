@@ -26,6 +26,7 @@ import (
 	"testing"
 	"time"
 
+	ethereum "github.com/Daimon-Security/soros"
 	"github.com/Daimon-Security/soros/common"
 	"github.com/Daimon-Security/soros/consensus/ethash"
 	"github.com/Daimon-Security/soros/core"
@@ -37,7 +38,6 @@ import (
 	"github.com/Daimon-Security/soros/node"
 	"github.com/Daimon-Security/soros/params"
 	"github.com/Daimon-Security/soros/rpc"
-	"github.com/ethereum/go-ethereum"
 )
 
 // Verify that Client implements the ethereum interfaces.

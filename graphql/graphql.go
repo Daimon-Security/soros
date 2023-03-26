@@ -24,6 +24,7 @@ import (
 	"math/big"
 	"strconv"
 
+	ethereum "github.com/Daimon-Security/soros"
 	"github.com/Daimon-Security/soros/common"
 	"github.com/Daimon-Security/soros/common/hexutil"
 	"github.com/Daimon-Security/soros/common/math"
@@ -32,7 +33,6 @@ import (
 	"github.com/Daimon-Security/soros/eth/filters"
 	"github.com/Daimon-Security/soros/internal/ethapi"
 	"github.com/Daimon-Security/soros/rpc"
-	"github.com/ethereum/go-ethereum"
 )
 
 var (

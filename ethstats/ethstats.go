@@ -30,6 +30,7 @@ import (
 	"sync"
 	"time"
 
+	ethereum "github.com/Daimon-Security/soros"
 	"github.com/Daimon-Security/soros/common"
 	"github.com/Daimon-Security/soros/common/mclock"
 	"github.com/Daimon-Security/soros/consensus"
@@ -43,7 +44,6 @@ import (
 	"github.com/Daimon-Security/soros/node"
 	"github.com/Daimon-Security/soros/p2p"
 	"github.com/Daimon-Security/soros/rpc"
-	"github.com/ethereum/go-ethereum"
 	"github.com/gorilla/websocket"
 )
 

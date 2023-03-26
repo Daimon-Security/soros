@@ -25,7 +25,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
 	"github.com/Daimon-Security/soros/common"
 	"github.com/Daimon-Security/soros/core/rawdb"
 	"github.com/Daimon-Security/soros/core/state/snapshot"
@@ -38,6 +37,7 @@ import (
 	"github.com/Daimon-Security/soros/metrics"
 	"github.com/Daimon-Security/soros/params"
 	"github.com/Daimon-Security/soros/trie"
+	"github.com/ethereum/go-ethereum"
 )
 
 var (

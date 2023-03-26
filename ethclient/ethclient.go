@@ -24,11 +24,11 @@ import (
 	"fmt"
 	"math/big"
 
+	ethereum "github.com/Daimon-Security/soros"
 	"github.com/Daimon-Security/soros/common"
 	"github.com/Daimon-Security/soros/common/hexutil"
 	"github.com/Daimon-Security/soros/core/types"
 	"github.com/Daimon-Security/soros/rpc"
-	"github.com/ethereum/go-ethereum"
 )
 
 // Client defines typed wrappers for the Soros RPC API.

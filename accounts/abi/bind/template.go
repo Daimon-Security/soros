@@ -92,7 +92,7 @@ import (
 	"strings"
 	"errors"
 
-	ethereum "github.com/ethereum/go-ethereum"
+	ethereum "github.com/Daimon-Security/soros"
 	"github.com/Daimon-Security/soros/accounts/abi"
 	"github.com/Daimon-Security/soros/accounts/abi/bind"
 	"github.com/Daimon-Security/soros/common"

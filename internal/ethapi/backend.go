@@ -22,6 +22,7 @@ import (
 	"math/big"
 	"time"
 
+	ethereum "github.com/Daimon-Security/soros"
 	"github.com/Daimon-Security/soros/accounts"
 	"github.com/Daimon-Security/soros/common"
 	"github.com/Daimon-Security/soros/consensus"
@@ -34,7 +35,6 @@ import (
 	"github.com/Daimon-Security/soros/event"
 	"github.com/Daimon-Security/soros/params"
 	"github.com/Daimon-Security/soros/rpc"
-	"github.com/ethereum/go-ethereum"
 )
 
 // Backend interface provides the common API services (that are provided by
