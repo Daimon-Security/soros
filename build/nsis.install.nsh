@@ -24,14 +24,14 @@ Section "Geth" GETH_IDX
   createShortCut "$SMPROGRAMS\${APPNAME}\Uninstall.lnk" "$INSTDIR\uninstall.exe"
 
   # Firewall - remove rules (if exists)
-  SimpleFC::AdvRemoveRule "Gsorincoming peers (TCP:30303)"
-  SimpleFC::AdvRemoveRule "Gsoroutgoing peers (TCP:30303)"
-  SimpleFC::AdvRemoveRule "GsorUDP discovery (UDP:30303)"
+  SimpleFC::AdvRemoveRule "Gsorincoming peers (TCP:30305)"
+  SimpleFC::AdvRemoveRule "Gsoroutgoing peers (TCP:30305)"
+  SimpleFC::AdvRemoveRule "GsorUDP discovery (UDP:30305)"
 
   # Firewall - add rules
-  SimpleFC::AdvAddRule "Gsorincoming peers (TCP:30303)" ""  6 1 1 2147483647 1 "$INSTDIR\gsor.exe" "" "" "Soros" 30303 "" "" ""
-  SimpleFC::AdvAddRule "Gsoroutgoing peers (TCP:30303)" ""  6 2 1 2147483647 1 "$INSTDIR\gsor.exe" "" "" "Soros" "" 30303 "" ""
-  SimpleFC::AdvAddRule "GsorUDP discovery (UDP:30303)" "" 17 2 1 2147483647 1 "$INSTDIR\gsor.exe" "" "" "Soros" "" 30303 "" ""
+  SimpleFC::AdvAddRule "Gsorincoming peers (TCP:30305)" ""  6 1 1 2147483647 1 "$INSTDIR\gsor.exe" "" "" "Soros" 30305 "" "" ""
+  SimpleFC::AdvAddRule "Gsoroutgoing peers (TCP:30305)" ""  6 2 1 2147483647 1 "$INSTDIR\gsor.exe" "" "" "Soros" "" 30305 "" ""
+  SimpleFC::AdvAddRule "GsorUDP discovery (UDP:30305)" "" 17 2 1 2147483647 1 "$INSTDIR\gsor.exe" "" "" "Soros" "" 30305 "" ""
 
   # Set default IPC endpoint (https://github.com/ethereum/EIPs/issues/147)
   ${EnvVarUpdate} $0 "ETHEREUM_SOCKET" "R" "HKLM" "\\.\pipe\gsor.ipc"
